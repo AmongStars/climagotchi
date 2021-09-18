@@ -27,6 +27,7 @@
 .text-box {
   display: flex;
   flex-direction: row;
+  padding: 3rem 0;
 }
 
 .text-box-info {

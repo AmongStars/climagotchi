@@ -8,9 +8,7 @@
       <img src="~/assets/images/bee-sad.png" class="avatar-sad" />
     </div>
     <div class="buttons">
-      <b-link to="map-start-journey"
-        ><b-button>Start journey!</b-button></b-link
-      >
+      <b-link to="water/start-quiz"><b-button>Start journey!</b-button></b-link>
     </div>
   </div>
 </template>
@@ -29,6 +27,7 @@
   display: flex;
   flex-direction: row;
   margin-bottom: 2rem;
+  padding: 3rem 0;
 }
 
 .text-box-info {
