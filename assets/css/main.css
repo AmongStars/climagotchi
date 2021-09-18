@@ -1,0 +1,56 @@
+body {
+  background-color: #7fdbda;
+  height: 100vh;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  padding: 15px 25px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #000000;
+  background-color: #ade498;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #8e8e8e;
+  width: 15rem;
+  margin: 2rem;
+}
+
+.btn:hover {
+  background-color: #81c765;
+}
+
+.btn:active {
+  background-color: #81c765;
+  box-shadow: 0 5px #7b7777;
+  transform: translateY(4px);
+}
+
+.trees {
+  display: block;
+  margin-top: -50vh;
+}
+
+.trees img {
+  border: 0 none;
+  height: auto;
+  max-width: 100%;
+  width: 100%;
+  vertical-align: bottom;
+}
