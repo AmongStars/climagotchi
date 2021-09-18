@@ -49,3 +49,15 @@ body {
   box-shadow: 0 5px #7b7777;
   transform: translateY(4px);
 }
+
+.login-form {
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.login-form input {
+  margin-bottom: 2em;
+  background-color: #ede682;
+  box-shadow: 4px 6px #a2a0a0;
+}
