@@ -77,7 +77,7 @@
       </div>
     </div>
     <div class="buttons">
-      <b-link to=""><b-button>Next</b-button></b-link>
+      <b-link to="map-avatar-instructions"><b-button>Next</b-button></b-link>
     </div>
   </div>
 </template>
@@ -90,6 +90,7 @@
 
 .buttons {
   align-items: end;
+  margin-top: -5rem;
 }
 
 .text-box {
