@@ -1,0 +1,50 @@
+body {
+  background-color: #7fdbda;
+}
+
+.content {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  background-image: url("~/assets/images/trees.png");
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  padding: 15px 25px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #000000;
+  background-color: #ade498;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #8e8e8e;
+  width: 15rem;
+  margin: 2rem;
+}
+
+.btn:hover {
+  background-color: #81c765;
+}
+
+.btn:active {
+  background-color: #81c765;
+  box-shadow: 0 5px #7b7777;
+  transform: translateY(4px);
+}
