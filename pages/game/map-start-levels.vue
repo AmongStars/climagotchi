@@ -90,7 +90,6 @@
 
 .buttons {
   align-items: end;
-  margin-top: -5rem;
 }
 
 .text-box {
@@ -119,8 +118,8 @@
 }
 
 .levels-1-col .text-box {
-  margin-top: 13rem;
   margin-left: 0.5rem;
+  margin-top: 10rem;
 }
 
 .levels-2-col .text-box {
