@@ -13,7 +13,7 @@
       <img src="~/assets/images/bubble.png" class="bubbles" />
     </div>
     <div class="buttons">
-      <b-link to="map-start-levels"><b-button>Ready for quiz</b-button></b-link>
+      <b-link to="task-1-start"><b-button>Ready for quiz</b-button></b-link>
     </div>
   </div>
 </template>
