@@ -3,13 +3,14 @@
     <img src="~/assets/images/logo.svg" class="logo" />
     <div class="text-box">
       <p class="text-box-info">
-        The Beebee is very sad. She thinks that she can do nothing about the
-        world around her.
+        Learn with her how small actions can have big difference!
       </p>
       <img src="~/assets/images/bee-sad.png" class="avatar-sad" />
     </div>
     <div class="buttons">
-      <b-link to="map-start-journey"><b-button>Next</b-button></b-link>
+      <b-link to="map-start-journey"
+        ><b-button>Start journey!</b-button></b-link
+      >
     </div>
   </div>
 </template>
@@ -21,12 +22,13 @@
 }
 
 .buttons {
-  align-items: end;
+  align-items: center;
 }
 
 .text-box {
   display: flex;
   flex-direction: row;
+  margin-bottom: 2rem;
 }
 
 .text-box-info {
@@ -36,5 +38,9 @@
 .avatar-sad {
   width: 40%;
   margin: 0 2rem;
+}
+
+.btn {
+  width: 20rem;
 }
 </style>
