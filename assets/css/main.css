@@ -61,3 +61,11 @@ body {
   background-color: #ede682;
   box-shadow: 4px 6px #a2a0a0;
 }
+
+.bg-game {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url("~/assets/images/map.png");
+}
