@@ -6,7 +6,7 @@
       <Climagotch />
     </div>
     <div class="buttons">
-      <b-link to="game/map-start"><b-button>Next</b-button></b-link>
+      <b-link to="../game/map-start"><b-button>Next</b-button></b-link>
     </div>
   </div>
 </template>

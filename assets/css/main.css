@@ -65,7 +65,53 @@ body {
 .bg-game {
   height: 100vh;
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  background-size: cover;
+  background-position: 110%;
   background-image: url("~/assets/images/map.png");
+}
+
+.text-box {
+  width: 40em;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #ede682;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #9fabb1;
+  padding: 5rem 0;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.text-box-title {
+  font-size: 3rem;
+}
+
+.text-box-info {
+  width: 15rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (max-width: 1200px) {
+  .bg-game {
+    background-size: contain;
+    background-position: top left;
+  }
 }
