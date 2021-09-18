@@ -47,4 +47,14 @@ export default {
   margin-right: auto;
   margin-left: auto;
 }
+
+@media only screen and (max-width: 768px) {
+  .buttons {
+    align-items: center;
+  }
+
+  .avatar-title {
+    font-size: 1.5rem;
+  }
+}
 </style>
