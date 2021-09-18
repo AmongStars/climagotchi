@@ -13,7 +13,7 @@
       <b-form-input placeholder="Please enter password here"></b-form-input>
     </div>
     <div class="buttons">
-      <b-link><b-button>Submit</b-button></b-link>
+      <b-link to="avatar/choose-avatar"><b-button>Submit</b-button></b-link>
     </div>
   </div>
 </template>

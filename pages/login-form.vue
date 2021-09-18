@@ -9,7 +9,7 @@
       <b-form-input placeholder="Please enter password here"></b-form-input>
     </div>
     <div class="buttons">
-      <b-link><b-button>Next</b-button></b-link>
+      <b-link to="game/map-start"><b-button>Next</b-button></b-link>
     </div>
   </div>
 </template>
