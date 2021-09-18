@@ -1,6 +1,13 @@
 body {
   background-color: #7fdbda;
+}
+
+.content {
   height: 100vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  background-image: url("~/assets/images/trees.png");
 }
 
 .logo {
@@ -40,17 +47,4 @@ body {
   background-color: #81c765;
   box-shadow: 0 5px #7b7777;
   transform: translateY(4px);
-}
-
-.trees {
-  display: block;
-  margin-top: -50vh;
-}
-
-.trees img {
-  border: 0 none;
-  height: auto;
-  max-width: 100%;
-  width: 100%;
-  vertical-align: bottom;
 }
