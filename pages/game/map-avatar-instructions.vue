@@ -30,6 +30,7 @@
   display: flex;
   flex-direction: row;
   padding: 3rem 0;
+  margin-bottom: 14rem;
 }
 
 .text-box-info {

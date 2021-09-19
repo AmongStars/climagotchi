@@ -24,4 +24,8 @@
 .buttons {
   align-items: end;
 }
+
+.text-box {
+  margin-bottom: 15rem;
+}
 </style>
