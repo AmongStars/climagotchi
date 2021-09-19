@@ -8,7 +8,9 @@
       </p>
     </div>
     <div class="buttons">
-      <b-link to="map-start-levels"><b-button>Next</b-button></b-link>
+      <a href="map-start-levels" target="_self">
+        <button type="button" class="btn btn-secondary">Next</button>
+      </a>
     </div>
   </div>
 </template>

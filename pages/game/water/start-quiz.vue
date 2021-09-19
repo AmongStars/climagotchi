@@ -13,7 +13,9 @@
       <img src="~/assets/images/bubble.png" class="bubbles" />
     </div>
     <div class="buttons">
-      <b-link to="task-1-start"><b-button>Ready for quiz</b-button></b-link>
+      <a href="task-1-start" target="_self">
+        <button type="button" class="btn btn-secondary">Ready for quiz!</button>
+      </a>
     </div>
   </div>
 </template>

@@ -9,7 +9,9 @@
       <img src="~/assets/images/bee-sad.png" class="avatar-sad" />
     </div>
     <div class="buttons">
-      <b-link to="map-start-journey"><b-button>Next</b-button></b-link>
+      <a href="map-start-journey" target="_self">
+        <button type="button" class="btn btn-secondary">Next</button>
+      </a>
     </div>
   </div>
 </template>

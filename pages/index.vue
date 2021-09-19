@@ -2,12 +2,16 @@
   <div class="content">
     <img src="~/assets/images/logo.svg" class="logo" />
     <div class="buttons">
-      <b-link to="login">
-        <b-button variant="player-mode">Player mode</b-button></b-link
-      >
-      <b-link to="login"
-        ><b-button variant="teacher-mode">Teacher mode</b-button></b-link
-      >
+      <a href="/login" target="_self">
+        <button type="button" class="btn btn-player-mode">
+          Player mode
+        </button>
+      </a>
+      <a href="/login" target="_self">
+        <button type="button" class="btn btn-teacher-mode">
+          Teacher mode
+        </button>
+      </a>
     </div>
   </div>
 </template>

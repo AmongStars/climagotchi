@@ -77,7 +77,9 @@
       </div>
     </div>
     <div class="buttons">
-      <b-link to="map-avatar-instructions"><b-button>Next</b-button></b-link>
+      <a href="map-avatar-instructions" target="_self">
+        <button type="button" class="btn btn-secondary">Next</button>
+      </a>
     </div>
   </div>
 </template>

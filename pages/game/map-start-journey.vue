@@ -8,7 +8,9 @@
       <img src="~/assets/images/bee-sad.png" class="avatar-sad" />
     </div>
     <div class="buttons">
-      <b-link to="water/start-quiz"><b-button>Start journey!</b-button></b-link>
+      <a href="water/start-quiz" target="_self">
+        <button type="button" class="btn btn-secondary">Start journey!</button>
+      </a>
     </div>
   </div>
 </template>
