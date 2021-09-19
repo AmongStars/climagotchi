@@ -28,4 +28,10 @@
 .text-box {
   margin-bottom: 15rem;
 }
+
+@media only screen and (max-width: 1024px) {
+  .text-box {
+    margin-bottom: 5rem;
+  }
+}
 </style>

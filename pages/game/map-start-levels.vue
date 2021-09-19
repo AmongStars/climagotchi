@@ -173,4 +173,12 @@
   margin-top: 6rem;
   margin-left: 3rem;
 }
+
+@media only screen and (max-width: 1400px) {
+  .levels-4-col .text-box,
+  .levels-4-col .text-box:nth-child(2),
+  .levels-4-col .text-box:nth-child(3) {
+    margin-left: 0;
+  }
+}
 </style>

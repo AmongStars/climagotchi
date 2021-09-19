@@ -24,4 +24,28 @@
 .buttons {
   align-items: end;
 }
+
+@media only screen and (max-width: 1024px) {
+  .text-box {
+    margin-bottom: 5rem;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .text-box {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    width: 15em;
+  }
+
+  .text-box-title {
+    font-size: 1rem;
+  }
+
+  .text-box-info {
+    font-size: 0.75rem;
+    width: 10rem;
+  }
+}
 </style>

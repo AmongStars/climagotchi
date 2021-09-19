@@ -54,4 +54,12 @@ export default {
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
+
+@media only screen and (max-width: 600px) {
+  .login-form {
+    width: 250px;
+    max-width: 250px;
+    margin-top: 3rem;
+  }
+}
 </style>

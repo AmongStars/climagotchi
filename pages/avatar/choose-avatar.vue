@@ -59,4 +59,22 @@ export default {
     font-size: 1.5rem;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .login-form {
+    width: 250px;
+    max-width: 250px;
+    margin-top: 3rem;
+  }
+
+  .avatar-options {
+    width: 80%;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .avatar-title {
+    font-size: 1.3rem;
+  }
+}
 </style>
